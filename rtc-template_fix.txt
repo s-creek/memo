@@ -1,0 +1,7 @@
+1. /usr/bin/rtc-template に追加
+ccorba_path= "/usr/lib/omniidl"
+sys.path.append(ccorba_path)
+
+2. /usr/lib/x86_64-linux-gnu/openrtm-1.1/py_helper/cxx_svc_impl.py に追加
+line 131
+tree = _omniidl.compile(file)>>tree = _omniidl.compile(file, idl_filename)

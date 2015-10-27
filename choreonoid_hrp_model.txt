@@ -1,0 +1,2 @@
+HRP2のモデルの equivalentInertia をコメントアウト
+#    exposedField     SFFloat      equivalentInertia   0
