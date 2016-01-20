@@ -1,0 +1,6 @@
+url : http://www.openrtm.org/openrtm/ja/content/openrtm-users-00626-sdopackageidl%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB
+
+SDOPackage.idlの先頭の方にある
+#define TypeCode CORBA::TypeCode
+という行をコメントアウトして、逆にTypeCodeを使用しているところに
+CORBA::をつけるとコンパイルは通るようです。
